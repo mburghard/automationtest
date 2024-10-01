@@ -1,0 +1,23 @@
+{
+  "name": "automation-test",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "trigger:ci": "ts-node trigger-pipeline.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^22.7.4",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.6.2"
+  },
+  "dependencies": {
+    "@octokit/rest": "^21.0.2",
+    "dotenv": "^16.4.5",
+    "octokit": "^4.0.2"
+  },
+  "description": ""
+}
