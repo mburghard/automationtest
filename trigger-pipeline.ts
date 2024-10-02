@@ -5,8 +5,8 @@ const octokit = new Octokit({
   auth: process.env.GITHUB_TOKEN,
 });
 
-const owner = 'mburghard';
-const repo = 'automationtest';
+const owner = '[username]';
+const repo = '[repo name]';
 
 async function triggerWorkflowDispatch(workflowId: string, ref: string) {
   try {
